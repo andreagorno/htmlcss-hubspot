@@ -1,10 +1,5 @@
 /* debug */
 
-.jumbotron {
-    height: 500px;
-    background-color: red;
-}
-
 /* /debug */
 
 /* common */
@@ -28,6 +23,15 @@
 
 .w-50 {
     width: 49.80%;
+    margin: auto;
+}
+
+.w-30 {
+    width: 30%;
+    margin-left: 15%;
+}
+
+.inline-block {
     display: inline-block;
 }
 
@@ -43,7 +47,7 @@
 
 .list-line a {
     text-decoration: none;
-    color: black;
+    color: 	#2F4F4F;
 }
 
 .float-right {
@@ -52,6 +56,11 @@
 
 .align-right {
     text-align: right;
+}
+
+.page-text {
+    font-size: 16px;
+    color: 	#2F4F4F;
 }
 
 /* pulsanti */
@@ -75,8 +84,17 @@
     color: #FE775A;
 }
 
-.correct-spacing {
-    margin: 0 15px;
+.btn-lg {
+    padding: 15px 30px;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.list-line a:not(.btn):hover {
+    text-decoration: underline;
+    color: #80BCC5;
 }
 
 /* fixed header */
@@ -97,6 +115,14 @@
     color: royalblue;
 }
 
+#white {
+    color: white;
+}
+
+#orange {
+    color: #FE775A;
+}
+
 /* header-nav */
 .header-nav {
     line-height: 100px;
@@ -105,4 +131,24 @@
 #logo {
     height: 50px;
     vertical-align: middle;
+}
+
+/* jubotron */
+.jumbotron {
+    height: 600px;
+    background-image: url('../img/jumbotron.png');
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    background-color: #FFF5EE;
+}
+
+.jumbotron h1 {
+    padding-top: 40px;
+    font-size: 52px;
+    font-weight: 700;
+    color: 	#2F4F4F;
+}
+
+.jumbotron p {
+    margin: 25px 0;
 }
