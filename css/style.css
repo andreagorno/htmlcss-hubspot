@@ -26,6 +26,10 @@
     margin: auto;
 }
 
+.w-25 {
+    width: 25%;
+}
+
 .w-30 {
     width: 30%;
 }
@@ -188,7 +192,6 @@
 /* main */
 main {
     background-color: #F4F9FD;
-    /* height: 1600px; */
 }
 
 main > .w-50 {
@@ -266,3 +269,85 @@ h4 {
     margin-bottom: 40px;
 }
 
+/* company-info */
+.company-info {
+    padding: 40px 0 80px 0;
+    background-image: linear-gradient(to left, #80D5D8 0%, #00A8B9 50%, #80D5D8 100%);
+    color: white;
+}
+
+.company-info h3 {
+    font-size: 36px;
+    color: white;
+}
+
+#p-special {
+    margin-bottom: 60px;
+}
+
+.w-25.float-left {
+    padding: 30px 0;
+}
+
+.w-25 img {
+    padding-bottom: 20px;
+}
+
+.w-25  > p {
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+}
+
+.w-25 h5 {
+    font-weight: normal;
+    color: white;
+}
+
+.line-top {
+    border-bottom: 1px solid white;
+}
+
+.line-right {
+    border-right: 1px solid white;
+}
+
+/* partners */
+.partners {
+    padding: 50px 0;
+    background-color: #F4F9FD;
+}
+
+#six4500 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#one-00 {
+    font-weight: bold;
+}
+
+.sponsors {
+    width: 157px;
+    height: 30px;
+    margin: 20px 20px;
+}
+
+#strict-text {
+    padding: 0 165px 0 50px;
+}
+
+.w-40 a {
+    margin: 45px 0;
+}
+
+.box-margin {
+    margin-bottom: 80px;
+}
+
+#bg-woman {
+    background-image: url('../img/woman.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 90%;
+}
