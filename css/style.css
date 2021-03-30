@@ -240,6 +240,8 @@ main > .w-50 {
     background-color: white;
     margin-top: 50px;
     padding: 60px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 1px gray;
 }
 
 #book {
@@ -271,6 +273,12 @@ main > .w-50 {
     margin-bottom: 50px;
     padding: 30px 50px;
     background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 1px gray;
+}
+
+.three-column-sec:hover {
+    box-shadow: 0px 0px 15px 0px gray;
 }
 
 .three-column-sec p {
